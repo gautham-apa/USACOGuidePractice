@@ -8,7 +8,6 @@ import java.io.*;
 import java.util.*;
 
 public class shuffle {
-    static Set<String> set = new HashSet<>();
     public static void main(String args[]) throws IOException {
         Scanner br = new Scanner(new File("shuffle.in"));
         PrintWriter out = new PrintWriter(new File("shuffle.out"));
